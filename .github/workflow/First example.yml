@@ -2,7 +2,7 @@ name: My first workflow
 
 on: push
 
-job: 
+jobs: 
    fisrt_job:
        runs on: ubantu-latest
        steps:
@@ -14,3 +14,4 @@ job:
 
        - name: read files
          run: Cat README.md  
+
