@@ -4,7 +4,7 @@ on: push
 
 jobs: 
    fisrt_job:
-       runs on: ubantu-latest
+       runs on: ubuntu-latest
        steps:
        - name: welcome message
          run: echo "my first github action job"
@@ -14,4 +14,5 @@ jobs:
 
        - name: read files
          run: Cat README.md  
+
 
