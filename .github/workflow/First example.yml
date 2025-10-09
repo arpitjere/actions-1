@@ -1,6 +1,7 @@
 name: My first workflow
 
-on: push
+on: 
+  workflow_dispatch:
 
 jobs: 
    fisrt_job:
@@ -14,6 +15,7 @@ jobs:
 
          - name: read files
            run: Cat README.md  
+
 
 
 
