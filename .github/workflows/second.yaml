@@ -1,0 +1,17 @@
+name: myworkflow
+on: push
+jobs: 
+  job-1: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: hi
+        run: echo "hi"
+      - name: bye
+        run: echo "bye"
+  job-2:
+    needs: job-1
+    runs-on: windows-latest
+    steps:
+      - name: hello
+        run: echo "hello"
+        
