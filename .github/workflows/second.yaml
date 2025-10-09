@@ -9,7 +9,6 @@ jobs:
       - name: bye
         run: echo "bye"
   job-2:
-    needs: job-1
     runs-on: windows-latest
     steps:
       - name: hello
