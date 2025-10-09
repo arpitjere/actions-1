@@ -10,7 +10,7 @@ jobs:
            run: echo "my first github action job"
 
          - name: list files
-           run: ls *.md
+           run: find . -name "*.md"
 
 
          - name: read files
