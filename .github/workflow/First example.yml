@@ -11,4 +11,5 @@ job:
               ls -ltra
               cat README.md
        - name: genetrae ASCII conent
-         run: cowsay -f dragon "run for cover i am dragon" >> dradon.txt
+
+         run: cowsay -f dragon "run for cover i am dragon" >> dragon.txt
