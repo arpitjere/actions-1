@@ -9,9 +9,11 @@ jobs:
         - name: checkout
           uses: actions/checkout@v4
          
-        - name: |
-          run: echo "my first github action job"
+        - name: list
+          run: |
+              echo "my first github action job"
               ls -ltra
               cat README.md
         - name: genetrae ASCII conent
           run: cowsay -f dragon "run for cover i am dragon" >> dradon.txt
+
