@@ -15,5 +15,6 @@ jobs:
 
         run: |
           cd .github/workflows
-          ./ascii-script.sh
+          ./ascii-scrpt.sh
+
 
