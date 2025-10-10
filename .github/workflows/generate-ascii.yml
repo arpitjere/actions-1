@@ -6,7 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
+<<<<<<< HEAD
         uses: actions/checkout@v4
+=======
+        uses: actions/checkout@v4
+>>>>>>> a82bb755b4ef522946e5578353c4c11956a73f8e
 
       - name: install coysay program
         run: sudo apt-get install cowsay -y
