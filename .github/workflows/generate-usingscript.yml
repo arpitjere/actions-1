@@ -13,8 +13,7 @@ jobs:
 
       - name: ascii script
 
-        run: |
-          cd .github/workflows
-          ./ascii-scrpt.sh
+        run: ./ascii-scrpt.sh
+
 
 
